@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="ANSubmitOrderesTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="submitPurches" translatesAutoresizingMaskIntoConstraints="NO" id="jjD-BG-EH5">
+                        <rect key="frame" x="18" y="10" width="76" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="QAS-PC-mfe"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="抱抱堂美式爆米花焦糖零食店散装" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQq-bw-gcw">
+                        <rect key="frame" x="102" y="10" width="190" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="Jyb-f9-hwu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.18823529411764706" green="0.12941176470588237" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="焦糖口味 300盎司/箱 2箱起订" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SC-lA-dge">
+                        <rect key="frame" x="102" y="28" width="190" height="11"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="11" id="xIX-Er-hjc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10.5"/>
+                        <color key="textColor" red="0.5490196078431373" green="0.52549019607843139" blue="0.5725490196078431" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrd-VN-yuC">
+                        <rect key="frame" x="102" y="46" width="30" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="I9d-eP-Y4b"/>
+                            <constraint firstAttribute="width" constant="30" id="jd8-bF-7ZC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.396078431372549" green="0.396078431372549" blue="0.396078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120元" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9N-JS-9cT">
+                        <rect key="frame" x="132" y="46" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8Uv-fP-dtK"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="qZa-Kt-ikA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.98431372549019602" green="0.0" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="数量  10箱" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5M-xI-H9K">
+                        <rect key="frame" x="248" y="46" width="52" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="8Bp-UW-sE9"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="52" id="E3N-J8-Koa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.39607843139999999" green="0.39607843139999999" blue="0.39607843139999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jjD-BG-EH5" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="-2" id="2qm-OQ-oH3"/>
+                    <constraint firstItem="0SC-lA-dge" firstAttribute="top" secondItem="EQq-bw-gcw" secondAttribute="bottom" constant="6" id="4gA-pc-NaX"/>
+                    <constraint firstItem="M9N-JS-9cT" firstAttribute="bottom" secondItem="jjD-BG-EH5" secondAttribute="bottom" id="59C-cU-wGQ"/>
+                    <constraint firstItem="M9N-JS-9cT" firstAttribute="leading" secondItem="zrd-VN-yuC" secondAttribute="trailing" id="GPh-VD-8U8"/>
+                    <constraint firstItem="EQq-bw-gcw" firstAttribute="leading" secondItem="jjD-BG-EH5" secondAttribute="trailing" constant="8" id="MoV-wY-Hqu"/>
+                    <constraint firstItem="Q5M-xI-H9K" firstAttribute="bottom" secondItem="jjD-BG-EH5" secondAttribute="bottom" id="O0H-mV-EGg"/>
+                    <constraint firstItem="zrd-VN-yuC" firstAttribute="bottom" secondItem="jjD-BG-EH5" secondAttribute="bottom" id="PjS-va-rCn"/>
+                    <constraint firstItem="EQq-bw-gcw" firstAttribute="top" secondItem="jjD-BG-EH5" secondAttribute="top" id="ZnQ-J0-QGu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="0SC-lA-dge" secondAttribute="trailing" constant="20" id="ec5-bS-5Ch"/>
+                    <constraint firstItem="jjD-BG-EH5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="fcF-ps-IzH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="EQq-bw-gcw" secondAttribute="trailing" constant="20" id="iWQ-iX-m23"/>
+                    <constraint firstItem="jjD-BG-EH5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="2" id="j3b-L0-mQp"/>
+                    <constraint firstItem="Q5M-xI-H9K" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="-12" id="lxy-Ny-lT2"/>
+                    <constraint firstItem="zrd-VN-yuC" firstAttribute="leading" secondItem="jjD-BG-EH5" secondAttribute="trailing" constant="8" id="od6-PZ-kMI"/>
+                    <constraint firstItem="0SC-lA-dge" firstAttribute="leading" secondItem="jjD-BG-EH5" secondAttribute="trailing" constant="8" id="zsV-ua-hf4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="countLabel" destination="Q5M-xI-H9K" id="Nk3-zm-qiB"/>
+                <outlet property="coverImageView" destination="jjD-BG-EH5" id="65S-0v-TBg"/>
+                <outlet property="introLabel" destination="0SC-lA-dge" id="tvc-E1-LUF"/>
+                <outlet property="priceLabel" destination="M9N-JS-9cT" id="Url-5X-0gc"/>
+                <outlet property="titleLabel" destination="EQq-bw-gcw" id="8lh-CY-g9E"/>
+            </connections>
+            <point key="canvasLocation" x="576" y="448.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="submitPurches" width="76" height="57"/>
+    </resources>
+</document>

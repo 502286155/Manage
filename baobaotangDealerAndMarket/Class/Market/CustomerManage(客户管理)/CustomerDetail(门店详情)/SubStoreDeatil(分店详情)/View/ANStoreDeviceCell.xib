@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ANStoreDeviceCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsJ-Dv-myp">
+                        <rect key="frame" x="12" y="0.0" width="104" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="104" id="aD7-gF-Scp"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.2784313725" green="0.19215686269999999" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AN902387645" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Myx-xQ-gnX">
+                        <rect key="frame" x="116" y="13" width="119" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9NX-gu-IrN">
+                        <rect key="frame" x="235" y="9.5" width="65" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="6Jn-BW-MYd"/>
+                            <constraint firstAttribute="width" constant="65" id="BMz-Eh-e9F"/>
+                            <constraint firstAttribute="width" constant="50" id="zFU-OM-htu"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="解绑设备">
+                            <color key="titleColor" red="0.2784313725" green="0.19215686269999999" blue="0.36862745099999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zFU-OM-htu"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <action selector="clickUnwrapBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="uDs-1b-inx"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="9NX-gu-IrN" firstAttribute="centerY" secondItem="YsJ-Dv-myp" secondAttribute="centerY" id="3cD-wS-Prc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="9NX-gu-IrN" secondAttribute="trailing" constant="12" id="5Yb-w6-2Ng"/>
+                    <constraint firstItem="Myx-xQ-gnX" firstAttribute="leading" secondItem="YsJ-Dv-myp" secondAttribute="trailing" id="8NW-CX-pWg"/>
+                    <constraint firstItem="YsJ-Dv-myp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-8" id="F6B-L9-c4I"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YsJ-Dv-myp" secondAttribute="bottom" constant="-8" id="Mo5-v8-iJn"/>
+                    <constraint firstItem="YsJ-Dv-myp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="4" id="eAb-OE-7gh"/>
+                    <constraint firstItem="9NX-gu-IrN" firstAttribute="leading" secondItem="Myx-xQ-gnX" secondAttribute="trailing" id="eKV-Gm-5tw"/>
+                    <constraint firstItem="Myx-xQ-gnX" firstAttribute="centerY" secondItem="YsJ-Dv-myp" secondAttribute="centerY" id="o0e-YH-hfM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="deviceNameLabel" destination="YsJ-Dv-myp" id="e0e-R8-VY5"/>
+                <outlet property="deviceNumLabel" destination="Myx-xQ-gnX" id="lZz-fP-aWf"/>
+                <outlet property="unwrapBtn" destination="9NX-gu-IrN" id="62S-iW-qmh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

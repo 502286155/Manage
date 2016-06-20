@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0d1229aa-9c06-4d96-8cac-53326f9973ea++7522",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0d1229aa-9c06-4d96-8cac-53326f9973ea++7522" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0d1229aa-9c06-4d96-8cac-53326f9973ea++7522" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7045B3F0-497C-454F-BFC6-300E4EEE322E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0d1229aa-9c06-4d96-8cac-53326f9973ea++7522" : "baobaotangDealerAndMarket\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "baobaotangDealerAndMarket",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "baobaotangDealerAndMarket.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/svn.alltosun.net\/outsourcing2014",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0d1229aa-9c06-4d96-8cac-53326f9973ea++7522"
+    }
+  ]
+}
